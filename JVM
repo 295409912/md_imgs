@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T07:09:56.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="6k4a8HoQ0RvmOQ4w_khH" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-29T07:15:33.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="4CmzRfqqcNl5eJ6JjkFG" version="14.7.6" type="github">
   <diagram id="rA_ThXLz78yO2tOmTv3Y" name="Page-1">
     <mxGraphModel dx="1026" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-8" value="JVM运行时内存区域" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="290" width="900" height="300" as="geometry" />
+          <mxGeometry x="10" y="290" width="900" height="320" as="geometry" />
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-90" value="方法区" style="swimlane;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-8">
           <mxGeometry y="30" width="180" height="270" as="geometry" />
@@ -97,7 +97,7 @@
           <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-93" value="堆" style="swimlane;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-8">
-          <mxGeometry x="180" y="30" width="220" height="270" as="geometry" />
+          <mxGeometry x="180" y="30" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-101" value="新生代" style="swimlane;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-93">
           <mxGeometry x="20" y="40" width="150" height="150" as="geometry" />
@@ -115,16 +115,19 @@
           <mxGeometry x="20" y="190" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-94" value="虚拟机栈" style="swimlane;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-8">
-          <mxGeometry x="360" y="30" width="180" height="270" as="geometry" />
+          <mxGeometry x="550" y="30" width="140" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="lHGblUOuasQmz1wVqDzu-110" value="栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-94">
-          <mxGeometry x="50" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="lHGblUOuasQmz1wVqDzu-112" value="栈帧" style="swimlane;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-94">
+          <mxGeometry x="15" y="40" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lHGblUOuasQmz1wVqDzu-113" value="局部变量表" style="whiteSpace=wrap;html=1;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-112">
+          <mxGeometry x="10" y="30" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-95" value="程序计数器" style="swimlane;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-8">
-          <mxGeometry x="540" y="30" width="180" height="270" as="geometry" />
+          <mxGeometry x="690" y="30" width="90" height="270" as="geometry" />
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-97" value="本地方法栈" style="swimlane;" vertex="1" parent="lHGblUOuasQmz1wVqDzu-8">
-          <mxGeometry x="720" y="30" width="180" height="270" as="geometry" />
+          <mxGeometry x="780" y="30" width="120" height="270" as="geometry" />
         </mxCell>
         <mxCell id="lHGblUOuasQmz1wVqDzu-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lHGblUOuasQmz1wVqDzu-69">
           <mxGeometry relative="1" as="geometry">
