@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T07:25:31.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="_H06Rf5SqCLHLGHynCsZ" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-27T07:25:54.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="3dPo6sZSwu1M26w__K3f" version="14.9.1" type="github">
   <diagram id="BNbo_Em83n-3hEsVlDfF" name="第 1 页">
     <mxGraphModel dx="1026" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -155,6 +155,11 @@
         </mxCell>
         <mxCell id="lVnNNDDG4L7BTQKKaDsG-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lVnNNDDG4L7BTQKKaDsG-66" target="lVnNNDDG4L7BTQKKaDsG-75">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVnNNDDG4L7BTQKKaDsG-77" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lVnNNDDG4L7BTQKKaDsG-76">
+          <mxGeometry x="-0.2667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lVnNNDDG4L7BTQKKaDsG-66" value="redo log的刷盘策略" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1170" y="1375" width="80" height="80" as="geometry" />
